@@ -6,6 +6,7 @@ from turtle import right
 import psutil
 from itertools import repeat
 from seq_qsort import insert_sort, seq_qsort, is_sorted
+from multiprocessing import shared_memory
 
 NUM_CPUS = psutil.cpu_count(logical=False)
 FACTOR = 8
@@ -17,10 +18,12 @@ def para_qsort(l):
     chunks = [(i, i+n-1) if i < n*(NUM_CPUS-1) else (i, len(l)-1) for i in range(0, n*NUM_CPUS, n)]
     
     print(chunks)
+
+    Parallel(n_jobs=2, verbose = 0)(delayed(has_shareable_memory)(thread_first_partion(l,chunk)) for chunk in chunks)
     
-    with multiprocessing.Pool(NUM_CPUS) as pool:
-        print(pool)
-        stage_one = pool.starmap(thread_first_partion, zip(repeat(l), chunks))
+#    with multiprocessing.Pool(NUM_CPUS) as pool:
+#        print(pool)
+#        stage_one = pool.starmap(thread_first_partion, zip(repeat(l), chunks))
 
 def thread_first_partion(a, lr):
     print(id(a))

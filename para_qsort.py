@@ -211,7 +211,7 @@ def is_sorted(name, shape, dtype):
         i+=1
     return ('Success')
 
-def read_from_file(self):
+def read_from_file():
     try:
         if len(argv) > 1:
             print(f'Opening {argv[1]}')

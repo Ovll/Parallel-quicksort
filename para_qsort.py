@@ -7,13 +7,11 @@ from concurrent.futures import ProcessPoolExecutor
 import sys
 import os.path
 import numpy as np
-from numba import njit
 
 
 NUM_CPUS = cpu_count(logical=True)
 INSERT_MAX = 32
 
-@njit
 def first_partition(name, shape, dtype, lr, pivot, n):    
     existing_shm = shared_memory.SharedMemory(name=name)
     a = np.ndarray(shape, dtype=dtype, buffer=existing_shm.buf)

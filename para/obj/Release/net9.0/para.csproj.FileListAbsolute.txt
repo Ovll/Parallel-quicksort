@@ -1,0 +1,14 @@
+/Users/sib/Code/PQS/para/obj/Release/net9.0/para.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sib/Code/PQS/para/obj/Release/net9.0/para.AssemblyInfoInputs.cache
+/Users/sib/Code/PQS/para/obj/Release/net9.0/para.AssemblyInfo.cs
+/Users/sib/Code/PQS/para/obj/Release/net9.0/para.csproj.CoreCompileInputs.cache
+/Users/sib/Code/PQS/para/bin/Release/net9.0/para
+/Users/sib/Code/PQS/para/bin/Release/net9.0/para.deps.json
+/Users/sib/Code/PQS/para/bin/Release/net9.0/para.runtimeconfig.json
+/Users/sib/Code/PQS/para/bin/Release/net9.0/para.dll
+/Users/sib/Code/PQS/para/bin/Release/net9.0/para.pdb
+/Users/sib/Code/PQS/para/obj/Release/net9.0/para.dll
+/Users/sib/Code/PQS/para/obj/Release/net9.0/refint/para.dll
+/Users/sib/Code/PQS/para/obj/Release/net9.0/para.pdb
+/Users/sib/Code/PQS/para/obj/Release/net9.0/para.genruntimeconfig.cache
+/Users/sib/Code/PQS/para/obj/Release/net9.0/ref/para.dll

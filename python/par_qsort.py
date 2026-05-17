@@ -95,7 +95,7 @@ def is_sorted(name, shape, dtype):
         return 'Fail'
 
 def main():
-    n = 2_000_000
+    n = 200_000_000
     print(f"Generating random array of size {n}...")
     np_array = np.random.randint(0, 500, size=n)
     shm = shared_memory.SharedMemory(create=True, size=np_array.nbytes)

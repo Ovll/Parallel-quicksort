@@ -1,0 +1,14 @@
+/Users/sib/Code/PQS/span/bin/Release/net9.0/span
+/Users/sib/Code/PQS/span/bin/Release/net9.0/span.deps.json
+/Users/sib/Code/PQS/span/bin/Release/net9.0/span.runtimeconfig.json
+/Users/sib/Code/PQS/span/bin/Release/net9.0/span.dll
+/Users/sib/Code/PQS/span/bin/Release/net9.0/span.pdb
+/Users/sib/Code/PQS/span/obj/Release/net9.0/span.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sib/Code/PQS/span/obj/Release/net9.0/span.AssemblyInfoInputs.cache
+/Users/sib/Code/PQS/span/obj/Release/net9.0/span.AssemblyInfo.cs
+/Users/sib/Code/PQS/span/obj/Release/net9.0/span.csproj.CoreCompileInputs.cache
+/Users/sib/Code/PQS/span/obj/Release/net9.0/span.dll
+/Users/sib/Code/PQS/span/obj/Release/net9.0/refint/span.dll
+/Users/sib/Code/PQS/span/obj/Release/net9.0/span.pdb
+/Users/sib/Code/PQS/span/obj/Release/net9.0/span.genruntimeconfig.cache
+/Users/sib/Code/PQS/span/obj/Release/net9.0/ref/span.dll

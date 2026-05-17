@@ -4,8 +4,7 @@ from time import time
 INSERT_MAX = 32
 
 def seq_qsort(a, left, right):
-    """ sequential quicksort (array, left, right)"""
-    #  sort a[left..right],try skipping equal elements in the middle
+    """ sequential quicksort (array, left, right) """
     if right - left < INSERT_MAX:
         insert_sort(a, left, right)
     else:
@@ -39,7 +38,7 @@ def insert_sort(l, p=0, r=2):
         l[i+1] = key
     
 def is_sorted(l):
-    for i in range(len(l)-2):
+    for i in range(len(l)-1):
         if l[i]>l[i+1]: 
             return ('Fail', i)
     return ('Success')
@@ -57,7 +56,6 @@ def main():
     sorted_f = time() - start_time
     print(is_sorted(list1))
     
-        
     print(f"Duration {duration} seconds")
     print(f'Built-in sorted {sorted_f} seconds')
 
